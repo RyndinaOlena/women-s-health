@@ -6,13 +6,41 @@
     height: 100vh;
     background-color: black;
     font-weight: 100;
+    background-image: url('../img/hero.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: 'no-repeat';
+
+    @media (max-width: 1200px) {
+        height: 50vh;
+
+    }
+
+    @media (max-width: 600px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 
     .hero_text {
         margin: 0;
-        color: white;
+        color: rgba(255, 248, 240, 0.8);
+        margin: 0 40px;
+        font-family: "Tinos", serif;
+        font-weight: 700;
+        font-size: 40px;
+        padding: 60px 0 0 0;
+
+
+        @media (max-width: 600px) {
+            margin: 0 20px;
+            padding: 40px 0 0 0;
+            font-size: 20px;
+        }
     }
 
-    .hero_title {
+    .hero_block_title {
         margin: 0;
         padding: 0;
         display: flex;
@@ -25,10 +53,56 @@
         font-size: 1.73vw;
         font-style: italic;
         padding: 0 22%;
-        color: white;
+        color: rgba(255, 255, 255, 0.7);
+
+
+        @media (max-width: 1200px) {
+            height: 50vh;
+
+        }
+
+        @media (max-width: 900px) {
+            font-size: 2.73vw;
+            padding: 0 12%;
+        }
+
+        @media (max-width: 600px) {
+            padding: 0 5%;
+        }
 
         .checked_letter {
             font-family: "Great Vibes", cursive;
+        }
+
+        .hero_text_title {
+
+            margin: 0;
+            font-weight: 100;
+        }
+
+        .hero_btn {
+            margin-top: 50px;
+            padding: 20px 60px;
+            border-radius: 40px;
+            border: none;
+            color: rgb(190, 131, 88);
+            font-weight: 600;
+            cursor: pointer;
+
+            @media (max-width:600px) {
+                padding: 15px 30px;
+            }
+
+            .hero_price {
+                font-weight: 500;
+                font-size: 15px;
+            }
+
+            .crossed-text {
+                color: rgb(190, 131, 88);
+                text-decoration: line-through;
+                font-weight: 300;
+            }
         }
     }
 }
