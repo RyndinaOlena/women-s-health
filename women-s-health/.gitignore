@@ -1,5 +1,16 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Игнорировать все файлы .css в папке css
+src/styles/*.css
 
+# Если есть карта исходников .css.map, её тоже можно игнорировать
+src/styles/*.css.map
+
+# Игнорировать всю папку dist
+dist/
+
+# Если скомпилированный CSS находится рядом с файлами SCSS, можно использовать маску:
+*.css
+*.css.map
 # dependencies
 /node_modules
 /.pnp

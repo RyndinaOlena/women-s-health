@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lusitana:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lusitana:wght@400;700&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.guarantees {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    &__block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 70%;
+        background-color: #333;
+        color: white;
+        padding: 20px 40px;
+        border-radius: 25px;
+
+        &__title {
+
+            color: #ff6600;
+            font-size: 3rem;
+            font-family: "Tinos", serif;
+            font-weight: 600;
+            font-size: 1.73vw;
+            font-style: italic;
+        }
+
+        &__text {
+            color: #ffffff;
+            font-size: 3rem;
+            font-family: "Tinos", serif;
+            font-weight: 600;
+            font-size: 1.73vw;
+            font-style: italic;
+
+            span {
+                color: #ff6600;
+            }
+        }
+
+    }
+}

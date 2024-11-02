@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lusitana:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lusitana:wght@400;700&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.blog-section {
+    padding: 20px;
+    text-align: center;
+    font-family: "Nanum Gothic", sans-serif;
+    margin-bottom: 60px;
+
+    &__bonus {
+        font-family: "Tinos", serif;
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        border-radius: 8px;
+        font-size: 2rem;
+        margin-bottom: 20px;
+
+        span {
+            color: #ff6600;
+            font-weight: bold;
+        }
+    }
+
+    &__title {
+        color: #333;
+        font-size: 3rem;
+        font-family: "Tinos", serif;
+        font-weight: 600;
+        font-size: 1.73vw;
+        font-style: italic;
+        font-size: 4rem;
+        padding: 60px 0 0 0;
+
+        span {
+            font-family: "Bodoni Moda", serif;
+            font-optical-sizing: auto;
+            font-family: "Tinos", serif;
+            font-weight: 600;
+            font-size: 1.73vw;
+            font-style: italic;
+            font-size: 1.2em;
+            color: #b87333;
+        }
+    }
+
+    &__cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+
+        .card {
+            position: relative;
+            width: 280px;
+            padding: 20px;
+            border-radius: 8px;
+            font-size: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            @media (max-width: 500px) {
+                padding: 10px;
+                width: 180px;
+            }
+
+            &--dark {
+                background-color: #333;
+                color: #fff;
+            }
+
+            &--light {
+                background-color: #fff;
+                color: #333;
+                border: 2px solid #333;
+            }
+
+            &__number {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                font-size: 0.8rem;
+                font-weight: bold;
+            }
+        }
+    }
+
+    &__note {
+        margin-top: 20px;
+        font-size: 1rem;
+        font-style: italic;
+    }
+}
+
+@media (max-width: 768px) {
+    .blog-section {
+        &__cards {
+            flex-direction: column;
+            align-items: center;
+
+            .card {
+                width: 100%;
+                max-width: 280px;
+            }
+        }
+
+        &__title {
+            font-size: 1.5rem;
+        }
+
+        &__bonus {
+            font-size: 0.9rem;
+        }
+    }
+}

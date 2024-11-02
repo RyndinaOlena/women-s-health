@@ -1,0 +1,42 @@
+.footer {
+    margin-top: 100px;
+    background-color: #333;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px 0;
+
+    &__text {
+        margin: 0;
+
+        color: white;
+        font-size: 3rem;
+        font-family: "Tinos", serif;
+        font-weight: 600;
+        font-size: 2.73vw;
+        font-style: italic;
+    }
+
+
+}
+
+.hero_btn {
+    margin-top: 50px;
+    padding: 20px 60px;
+    border-radius: 40px;
+    border: none;
+    color: rgb(190, 131, 88);
+    font-weight: 600;
+    cursor: pointer;
+
+    @media (max-width:1200px) {
+        margin-top: 10px;
+        padding: 10px 40px;
+    }
+
+    @media (max-width:600px) {
+        margin-top: 20px;
+    }
+}
