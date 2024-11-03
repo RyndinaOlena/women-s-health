@@ -1,5 +1,5 @@
 import React from 'react';
-// import './BlogSection.scss';
+
 
 const BlogSection = () => {
     return (
