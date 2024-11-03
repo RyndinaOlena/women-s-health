@@ -1,5 +1,5 @@
-import '../src/styles/index.scss'
-import Bonus from './pages/ bonus';
+import './styles/index.scss'
+import Bonus from './pages/bonus';
 import Footer from './pages/footer';
 import Gallery from './pages/galery';
 import Guarantees from './pages/guarantees';
