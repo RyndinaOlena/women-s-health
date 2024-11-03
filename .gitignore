@@ -9,8 +9,8 @@ src/styles/*.css.map
 dist/
 
 # Если скомпилированный CSS находится рядом с файлами SCSS, можно использовать маску:
-*.css
-*.css.map
+# *.css
+# *.css.map
 # dependencies
 /node_modules
 /.pnp
