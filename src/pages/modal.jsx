@@ -23,7 +23,7 @@ const Modal = ({ isOpen, onClose }) => {
             <div class="modal-content" onClick={(e) => e.stopPropagation()}>
                 <span class="close" onClick={onClose}>&times;</span>
                 <img src={qr} alt="QR Code" class="modal-img" />
-                <p class="modal-text">Відскануйте QR-код, щоб дізнатися більше</p>
+                <p class="modal-text">Отсканируйте QR-код, чтобы оплатить</p>
                 <a className='modal_content_text__link_pay' rel='nofollow' href='https://www.privat24.ua/send/d8wyl'><FaLink /> Нажми чтобы оплатить </a>
             </div>
         </div>
