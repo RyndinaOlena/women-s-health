@@ -5,7 +5,7 @@ const BlogSection = () => {
     return (
         <section className="blog-section">
             <div className="blog-section__bonus">
-                <p>🎁   Бонус ~ <span>Питание</span> для гормональной системы по фазам цикла!</p>
+                <p>🎁 Бонус ~ <span>Питание</span> для гормональной системы по фазам цикла!</p>
             </div>
             <h2 className="blog-section__title">
                 Мы разберем факторы <span className='blog-section_checked'>влияющие</span> на женское здоровье

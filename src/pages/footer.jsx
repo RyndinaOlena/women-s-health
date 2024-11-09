@@ -7,7 +7,7 @@ const Footer = () => {
         setIsModalOpen(!isModalOpen);
     };
     return (
-        <div className='footer'>
+        <div className='footer name'>
             <div>
                 <p className='footer__text'>Не упусти шанс увидеть новую себя</p>
             </div>
